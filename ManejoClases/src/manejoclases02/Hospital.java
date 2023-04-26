@@ -9,4 +9,29 @@ public class Hospital {
     private String nombre;
     private int numeroCamas;
     private double presupuesto;
+
+    public String establecerNombre() {
+        return nombre;
+    }
+
+    public void obtenerNombre(String n) {
+        nombre = n;
+    }
+
+    public int establecerNumeroCamas() {
+        return numeroCamas;
+    }
+
+    public void obtenerNumeroCamas(int n) {
+        numeroCamas = n;
+    }
+
+    public double establecerPresupuesto() {
+        return presupuesto;
+    }
+
+    public void obtenerPresupuesto(double n) {
+        presupuesto = n;
+    }
+    
 }
